@@ -1,5 +1,9 @@
 # My-Arch-Hyprland-dotfies
 
-Необходимые пакеты
+## Необходимые пакеты
 
-Thunar fastfetch fish hyprlock hyprpaper swaync swaync wlogout 
+```bash
+sudo pacman -S thunar fastfetch fish hyprlock hyperpaper swaync swaync wlogout
+```
+
+
