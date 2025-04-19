@@ -22,5 +22,6 @@ yay -S ttf-montserrat
 
 ## Дополнительные пакеты (по желанию)
 ```bash
-sudo pacman -S nwg-look
+sudo pacman -S nwg-look qt5ct qt6ct kvantum krita file-roller zip unzip btop flatpak obs-studio pavucontrol
+yay -S polychromatic teamspeak opentabletdriver xray-bin
 ```
