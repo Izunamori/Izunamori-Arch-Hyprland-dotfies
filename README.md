@@ -16,8 +16,8 @@ makepkg -si
 ## Необходимые пакеты
 
 ```bash
-sudo pacman -S thunar fastfetch fish hyprlock hyperpaper swaync swaync wlogout ttf-jetbrains-mono
-yay -S ttf-montserrat gthumb
+sudo pacman -S thunar fastfetch fish hyprlock hyperpaper swaync swaync wlogout ttf-jetbrains-mono gthumb
+yay -S ttf-montserrat 
 ```
 
 ## Дополнительные пакеты (по желанию)
