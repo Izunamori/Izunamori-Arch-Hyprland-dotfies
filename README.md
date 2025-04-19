@@ -20,7 +20,7 @@ sudo pacman -S thunar fastfetch fish hyprlock hyperpaper swaync swaync wlogout t
 yay -S ttf-montserrat gthumb
 ```
 
-## Дополнительные пакеты
+## Дополнительные пакеты (по желанию)
 ```bash
 sudo pacman -S nwg-look
 ```
