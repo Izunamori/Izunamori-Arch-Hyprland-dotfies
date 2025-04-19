@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/izunamori/Pictures/gowall" added="2025-04-18T15:43:36.762388Z" modified="2025-04-18T15:43:36.762390Z" visited="2025-04-18T15:43:36.762389Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2025-04-18T15:43:36.762389Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/izunamori/Pictures/gowall/upscaler" added="2025-04-18T15:43:36.762391Z" modified="2025-04-18T15:43:36.762392Z" visited="2025-04-18T15:43:36.762391Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2025-04-18T15:43:36.762392Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/izunamori/PICTURES" added="2025-04-18T15:43:36.762393Z" modified="2025-04-18T15:43:36.762394Z" visited="2025-04-18T15:43:36.762393Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2025-04-18T15:43:36.762393Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/izunamori/VIDEO" added="2025-04-18T15:43:36.762394Z" modified="2025-04-18T15:43:36.762395Z" visited="2025-04-18T15:43:36.762394Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2025-04-18T15:43:36.762395Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/izunamori/PICTURES/Screenshots" added="2025-04-18T15:43:36.762396Z" modified="2025-04-18T15:43:36.762396Z" visited="2025-04-18T15:43:36.762396Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2025-04-18T15:43:36.762396Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/izunamori/.local/share/fastfetch/screenshots" added="2025-04-18T15:43:36.762397Z" modified="2025-04-18T15:43:36.762398Z" visited="2025-04-18T15:43:36.762397Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2025-04-18T15:43:36.762398Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/izunamori/DOWNLOADS" added="2025-04-18T15:43:36.762399Z" modified="2025-04-18T15:43:36.762400Z" visited="2025-04-18T15:43:36.762399Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2025-04-18T15:43:36.762399Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/izunamori/DOWNLOADS/dotfiles-main" added="2025-04-18T15:43:36.762401Z" modified="2025-04-18T15:43:36.762403Z" visited="2025-04-18T15:43:36.762401Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2025-04-18T15:43:36.762402Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/izunamori/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F" added="2025-04-18T15:43:36.762403Z" modified="2025-04-18T15:43:36.762404Z" visited="2025-04-18T15:43:36.762403Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2025-04-18T15:43:36.762404Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/izunamori" added="2025-04-18T15:43:36.762405Z" modified="2025-04-18T15:43:36.762405Z" visited="2025-04-18T15:43:36.762405Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2025-04-18T15:43:36.762405Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/izunamori/Downloads" added="2025-04-18T15:43:36.762406Z" modified="2025-04-18T15:43:36.762407Z" visited="2025-04-18T15:43:36.762406Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;org.gnome.gThumb %u&apos;" modified="2025-04-18T15:43:36.762406Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>
