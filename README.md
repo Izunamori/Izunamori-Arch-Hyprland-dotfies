@@ -42,6 +42,11 @@ yay -S polychromatic teamspeak opentabletdriver xray-bin
 ```
 ## Rofi 
 в папке с rofi будет папка themes, ее нужно переместить в /usr/share/rofi/
+```bash
+cd /home/izunamori/GIT/Izunamori-Arch-Hyprland-dotfies/.config/rofi/
+cp themes/ /usr/share/rofi/
+```
+
 после этого нужно прописать в терминал
 ```bash
 rofi-theme-selector
