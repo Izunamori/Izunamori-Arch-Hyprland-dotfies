@@ -47,3 +47,14 @@ yay -S polychromatic teamspeak opentabletdriver xray-bin
 rofi-theme-selector
 ```
 и выбрать тему TokyoNight.
+
+## Обои
+Для корректной работы обоев нужно из корневой папки репозитория скопировать "1.png" в директорию ~/PICTURES/Wallpaper
+```bash
+mkdir PICTURES
+cd ./PICTURES/
+mkdir Wallpaper
+cd
+cd ./GIT/Izunamori-Arch-Hyprland-dotfies/PICTURES/Wallpaper/
+cp ./1.png ~/PICTURES/Wallpaper/
+```
