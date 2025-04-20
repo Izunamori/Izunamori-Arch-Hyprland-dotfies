@@ -28,3 +28,10 @@ yay -S ttf-montserrat
 sudo pacman -S nwg-look qt5ct qt6ct kvantum krita file-roller zip unzip btop flatpak obs-studio pavucontrol
 yay -S polychromatic teamspeak opentabletdriver xray-bin
 ```
+## Rofi 
+в папке с rofi будет папка themes, ее нужно переместить в /usr/share/rofi/
+после этого нужно прописать в терминал
+```bash
+rofi-theme-selector
+```
+и выбрать тему TokyoNight.
