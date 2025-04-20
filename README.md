@@ -8,6 +8,8 @@
 ## Превью
 ![Превью](https://i.ibb.co/6c9kMwGF/IMG-2217.png)
 
+# Установка
+
 ## Установка yay
 ```bash
 sudo pacman -S --needed base-devel git
