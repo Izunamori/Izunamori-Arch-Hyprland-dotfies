@@ -8,7 +8,17 @@
 ## Превью
 ![Превью](https://i.ibb.co/6c9kMwGF/IMG-2217.png)
 
-# Установка
+# Ручная установка(другой пока что не предусмотрено)
+
+## Копирование репозитория и установка "дотфайлов"
+
+```bash
+mkdir GIT
+cd GIT
+git clone https://github.com/Izunamori/Izunamori-Arch-Hyprland-dotfies.git
+cd Izunamori-Arch-Hyprland-dotfies/
+cp -r .config/ ~/
+```
 
 ## Установка yay
 ```bash
