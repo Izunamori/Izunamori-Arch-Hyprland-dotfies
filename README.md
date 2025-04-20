@@ -31,7 +31,7 @@ makepkg -si
 ## Необходимые пакеты
 
 ```bash
-sudo pacman -S thunar fastfetch fish hyprlock hyperpaper swaync swaync wlogout ttf-jetbrains-mono gthumb rofi pavucontrol
+sudo pacman -S thunar fastfetch fish hyprlock hyperpaper swaync swaync wlogout ttf-jetbrains-mono gthumb rofi pavucontrol wl-clipboard wl-clip-persist cliphist
 yay -S ttf-montserrat 
 ```
 
