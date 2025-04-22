@@ -32,7 +32,7 @@ makepkg -si
 
 ```bash
 sudo pacman -S thunar fastfetch fish hyprlock hyperpaper swaync swaync wlogout ttf-jetbrains-mono gthumb rofi pavucontrol wl-clipboard wl-clip-persist cliphist waybar
-yay -S ttf-montserrat ttf-font-awesome
+yay -S ttf-montserrat ttf-font-awesome ttf-jetbrains-mono-nerd
 ```
 
 ## Дополнительные пакеты (по желанию)
