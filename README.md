@@ -31,7 +31,7 @@ makepkg -si
 ## Необходимые пакеты
 
 ```bash
-sudo pacman -S thunar fastfetch fish hyprlock hyperpaper swaync swaync wlogout ttf-jetbrains-mono gthumb rofi pavucontrol wl-clipboard wl-clip-persist cliphist
+sudo pacman -S thunar fastfetch fish hyprlock hyperpaper swaync swaync wlogout ttf-jetbrains-mono gthumb rofi pavucontrol wl-clipboard wl-clip-persist cliphist waybar
 yay -S ttf-montserrat 
 ```
 
@@ -44,7 +44,7 @@ yay -S polychromatic teamspeak opentabletdriver xray-bin
 в папке с rofi будет папка themes, ее нужно переместить в /usr/share/rofi/
 ```bash
 cd /home/izunamori/GIT/Izunamori-Arch-Hyprland-dotfies/.config/rofi/
-cp themes/ /usr/share/rofi/
+sudo cp themes/ /usr/share/rofi/
 ```
 
 после этого нужно прописать в терминал
@@ -59,7 +59,6 @@ rofi-theme-selector
 mkdir PICTURES
 cd ./PICTURES/
 mkdir Wallpaper
-cd
-cd ./GIT/Izunamori-Arch-Hyprland-dotfies/PICTURES/Wallpaper/
+cd ./GIT/Izunamori-Arch-Hyprland-dotfies/
 cp ./1.png ~/PICTURES/Wallpaper/
 ```
