@@ -32,15 +32,15 @@ makepkg -si
 ## Необходимые пакеты
 
 ```bash
-sudo pacman -Syyu --nocnofirm
-sudo pacman -S thunar fastfetch fish hyprlock hyprpaper swaync swaync ttf-jetbrains-mono gthumb rofi pavucontrol wl-clipboard wl-clip-persist cliphist waybar --nocnofirm
-yay -S ttf-montserrat ttf-font-awesome ttf-jetbrains-mono-nerd --nocnofirm
+sudo pacman -Syyu 
+sudo pacman -S thunar fastfetch fish hyprlock hyprpaper swaync swaync ttf-jetbrains-mono gthumb rofi pavucontrol wl-clipboard wl-clip-persist cliphist waybar 
+yay -S ttf-montserrat ttf-font-awesome ttf-jetbrains-mono-nerd 
 ```
 
 ## Дополнительные пакеты (по желанию)
 ```bash
 sudo pacman -S nwg-look qt5ct qt6ct kvantum krita file-roller zip unzip btop flatpak obs-studio jp2a discord --nocnofirm
-yay -S polychromatic teamspeak opentabletdriver xray-bin hyprshot --nocnofirm
+yay -S polychromatic teamspeak opentabletdriver xray-bin hyprshot 
 ```
 ## Rofi 
 в папке с rofi будет папка themes, ее нужно переместить в /usr/share/rofi/
