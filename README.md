@@ -39,7 +39,7 @@ yay -S ttf-montserrat ttf-font-awesome ttf-jetbrains-mono-nerd
 
 ## Дополнительные пакеты (по желанию)
 ```bash
-sudo pacman -S nwg-look qt5ct qt6ct kvantum krita file-roller zip unzip btop flatpak obs-studio jp2a discord --nocnofirm
+sudo pacman -S nwg-look qt5ct qt6ct kvantum krita file-roller zip unzip btop flatpak obs-studio jp2a discord 
 yay -S polychromatic teamspeak opentabletdriver xray-bin hyprshot 
 ```
 ## Rofi 
