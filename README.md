@@ -13,6 +13,7 @@
 ## Копирование репозитория и установка "дотфайлов"
 
 ```bash
+sudo pacman -S git
 mkdir GIT
 cd GIT
 git clone https://github.com/Izunamori/Izunamori-Arch-Hyprland-dotfies.git
