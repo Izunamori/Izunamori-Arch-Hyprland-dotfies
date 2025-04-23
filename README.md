@@ -32,13 +32,14 @@ makepkg -si
 ## Необходимые пакеты
 
 ```bash
-sudo pacman -S thunar fastfetch fish hyprlock hyperpaper swaync swaync wlogout ttf-jetbrains-mono gthumb rofi pavucontrol wl-clipboard wl-clip-persist cliphist waybar
+sudo pacman -Syyu
+sudo pacman -S thunar fastfetch fish hyprlock hyprpaper swaync swaync wlogout ttf-jetbrains-mono gthumb rofi pavucontrol wl-clipboard wl-clip-persist cliphist waybar
 yay -S ttf-montserrat ttf-font-awesome ttf-jetbrains-mono-nerd
 ```
 
 ## Дополнительные пакеты (по желанию)
 ```bash
-sudo pacman -S nwg-look qt5ct qt6ct kvantum krita file-roller zip unzip btop flatpak obs-studio jp2a 
+sudo pacman -S nwg-look qt5ct qt6ct kvantum krita file-roller zip unzip btop flatpak obs-studio jp2a discord
 yay -S polychromatic teamspeak opentabletdriver xray-bin hyprshot
 ```
 ## Rofi 
