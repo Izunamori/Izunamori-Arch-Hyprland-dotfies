@@ -33,7 +33,7 @@ makepkg -si
 
 ```bash
 sudo pacman -Syyu 
-sudo pacman -S thunar fastfetch fish hyprlock hyprpaper swaync swaync ttf-jetbrains-mono gthumb rofi pavucontrol wl-clipboard wl-clip-persist cliphist waybar 
+sudo pacman -S thunar fastfetch fish hyprlock hyprpaper swaync swaync ttf-jetbrains-mono gthumb rofi pavucontrol wl-clipboard wl-clip-persist cliphist waybar lib32-nvidia-utils
 yay -S ttf-montserrat ttf-font-awesome ttf-jetbrains-mono-nerd 
 ```
 
