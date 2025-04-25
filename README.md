@@ -43,17 +43,11 @@ sudo pacman -S nwg-look qt5ct qt6ct kvantum krita file-roller zip unzip btop fla
 yay -S polychromatic teamspeak opentabletdriver xray-bin hyprshot catppuccin-gtk-theme-mocha tela-circle-icon-theme
 ```
 ## Rofi 
-в папке с rofi будет папка themes, ее нужно переместить в /usr/share/rofi/
-```bash
-cd /home/izunamori/GIT/Izunamori-Arch-Hyprland-dotfies/.config/rofi/
-sudo cp -r themes/ /usr/share/rofi/
-```
-
-после этого нужно прописать в терминал
+нужно прописать в терминал
 ```bash
 rofi-theme-selector
 ```
-и выбрать тему TokyoNight.
+чтобы выбрать тему 
 
 ## Обои
 Для корректной работы обоев нужно из корневой папки репозитория скопировать "1.png" в директорию ~/PICTURES/Wallpaper
