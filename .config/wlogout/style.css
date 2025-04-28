@@ -4,7 +4,7 @@
 }
 window {
 	background-image: url('./1.png');
-	background-color: rgb(15, 15, 15);
+	background-color: rgba(20, 20, 32, 0.95);
 }
 button {
     color: #d4bff9;
