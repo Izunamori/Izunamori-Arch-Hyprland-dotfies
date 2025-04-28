@@ -6,7 +6,6 @@
 Также какие-то пакеты могут быть недоступны в pacman, в таком случае их нужно установить через AUR(yay)
 
 ## Гойда
-![Превью](https://i.ibb.co/2bsyw7N/image.png)
 
 # Ручная установка(другой пока что не предусмотрено)
 
@@ -52,9 +51,9 @@ rofi-theme-selector
 ## Обои
 Для корректной работы обоев нужно из корневой папки репозитория скопировать "1.png" в директорию ~/PICTURES/Wallpaper
 ```bash
-mkdir PICTURES
-cd ./PICTURES/
-mkdir Wallpaper
+mkdir Изображения
+cd ./Изображения/
+mkdir Обои
 cd ./GIT/Izunamori-Arch-Hyprland-dotfies/
-cp ./1.png ~/PICTURES/Wallpaper/
+cp ./1.png ~/Изображения/Обои/
 ```
