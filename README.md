@@ -22,6 +22,7 @@ cp -r .config/ ~/
 
 ## Установка yay
 ```bash
+cd GIT
 sudo pacman -S --needed base-devel git
 git clone https://aur.archlinux.org/yay.git
 cd yay
