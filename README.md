@@ -57,3 +57,9 @@ mkdir Обои
 cd ./GIT/Izunamori-Arch-Hyprland-dotfies/
 cp ./1.png ~/Изображения/Обои/
 ```
+
+## После установки
+для добавления папок "Загрузки, документы и т.д."
+```bash
+xdg-user-dirs-update --force
+```
