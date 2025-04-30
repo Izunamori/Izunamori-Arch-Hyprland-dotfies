@@ -20,7 +20,7 @@ configuration {
 
 /*****----- Global Properties -----*****/
 * {
-    font:                        "JetBrainsMono NFP 14";
+    font:                        "JetBrainsMono NFP 15";
 }
 
 /*****----- Main Window -----*****/
@@ -38,7 +38,7 @@ window {
     enabled:                     true;
     margin:                      0px;
     padding:                     0px;
-    border-radius:               20px;
+    border-radius:               0px;
     cursor:                      "default";
     background-color:            rgba(20, 20, 32, 0.95);
 }
