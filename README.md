@@ -33,14 +33,14 @@ makepkg -si
 
 ```bash
 sudo pacman -Syyu 
-sudo pacman -S thunar fastfetch fish hyprlock hyprpaper swaync swaync ttf-jetbrains-mono gthumb rofi pavucontrol wl-clipboard wl-clip-persist cliphist waybar lib32-nvidia-utils gvfs
-yay -S ttf-montserrat ttf-font-awesome ttf-jetbrains-mono-nerd 
+sudo pacman -S thunar fastfetch fish hyprlock hyprpaper swaync swaync ttf-jetbrains-mono gthumb rofi pavucontrol wl-clipboard wl-clip-persist cliphist waybar lib32-nvidia-utils gvfs swayidle nwg-look qt5ct qt6ct kvantum
+yay -S ttf-montserrat ttf-font-awesome ttf-jetbrains-mono-nerd hyprshot catppuccin-gtk-theme-mocha tela-circle-icon-theme
 ```
 
 ## Дополнительные пакеты (по желанию)
 ```bash
-sudo pacman -S nwg-look qt5ct qt6ct kvantum krita file-roller zip unzip btop flatpak obs-studio jp2a discord vscode
-yay -S polychromatic teamspeak opentabletdriver xray-bin hyprshot catppuccin-gtk-theme-mocha tela-circle-icon-theme
+sudo pacman -S krita file-roller zip unzip btop flatpak obs-studio jp2a discord vscode
+yay -S polychromatic teamspeak opentabletdriver xray-bin 
 ```
 ## Rofi 
 нужно прописать в терминал
