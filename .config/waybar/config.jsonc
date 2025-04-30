@@ -138,7 +138,7 @@
 
     "custom/power": {
         "format": "",
-        "on-click": "wlogout --protocol layer-shell"
+        "on-click": "~/.config/waybar/powerm.sh"
     },
 
     "custom/l_end": {
