@@ -1,10 +1,10 @@
 {
   "positionX": "center",
-  "positionY": "top",
+  "positionY": "bottom",
   "layer": "overlay",
   "cssPriority": "user",
   "control-center-margin-top": 10,
-  "control-center-margin-bottom": 10,
+  "control-center-margin-bottom": 40,
   "control-center-margin-right": 10,
   "control-center-margin-left": 10,
   "notification-icon-size": 64,
