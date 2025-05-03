@@ -33,8 +33,8 @@ makepkg -si
 
 ```bash
 sudo pacman -Syyu 
-sudo pacman -S thunar fastfetch fish hyprlock hyprpaper swaync swaync ttf-jetbrains-mono gthumb rofi pavucontrol wl-clipboard wl-clip-persist cliphist waybar lib32-nvidia-utils gvfs swayidle nwg-look qt5ct qt6ct kvantum
-yay -S ttf-montserrat ttf-font-awesome ttf-jetbrains-mono-nerd hyprshot catppuccin-gtk-theme-mocha tela-circle-icon-theme
+sudo pacman -S thunar fastfetch fish hyprlock hyprpaper swaync swaync ttf-jetbrains-mono gthumb rofi pavucontrol wl-clipboard wl-clip-persist cliphist waybar lib32-nvidia-utils gvfs swayidle nwg-look qt5ct qt6ct kvantum 
+yay -S ttf-montserrat ttf-font-awesome ttf-jetbrains-mono-nerd hyprshot catppuccin-gtk-theme-mocha tela-circle-icon-theme bibata-cursor-theme
 ```
 
 ## Дополнительные пакеты (по желанию)
