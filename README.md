@@ -55,6 +55,7 @@ rofi-theme-selector
 mkdir Изображения
 cd ./Изображения/
 mkdir Обои
+cd
 cd ./GIT/Izunamori-Arch-Hyprland-dotfies/
 cp ./1.png ~/Изображения/Обои/
 ```
