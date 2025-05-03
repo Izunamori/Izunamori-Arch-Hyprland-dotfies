@@ -39,7 +39,7 @@ yay -S ttf-montserrat ttf-font-awesome ttf-jetbrains-mono-nerd hyprshot catppucc
 
 ## Дополнительные пакеты (по желанию)
 ```bash
-sudo pacman -S krita file-roller zip unzip btop flatpak obs-studio jp2a discord vscode
+sudo pacman -S krita file-roller zip unzip btop flatpak obs-studio jp2a discord vscode telegram-desktop gparted
 yay -S polychromatic teamspeak opentabletdriver xray-bin 
 ```
 ## Rofi 
