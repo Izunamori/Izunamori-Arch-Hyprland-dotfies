@@ -38,9 +38,9 @@ window {
     enabled:                     true;
     margin:                      0px;
     padding:                     0px;
-    border-radius:               0px;
+    border-radius:               30px;
     cursor:                      "default";
-    background-color:            rgba(20, 20, 32, 0.95);
+    background-color:            rgba(20, 20, 32, 0.85);
 }
 
 /*****----- Main Box -----*****/

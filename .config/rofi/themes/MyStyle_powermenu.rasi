@@ -31,16 +31,16 @@ window {
     width:                       17em;
     height:                      17em;
     x-offset:                    -1%;
-    y-offset:                    5%;
+    y-offset:                    2%;
 
     /* properties for all widgets */
     enabled:                     true;
     margin:                      0px;
     padding:                     0px;
-    border-radius:               0px;
+    border-radius:               30px;
     border:                    #b8b4fe;
     cursor:                      "default";
-    background-color:            rgba(20, 20, 32, 0.95);
+    background-color:            rgba(20, 20, 32, 0.85);
 }
 
 /*****----- Main Box -----*****/
