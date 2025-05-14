@@ -20,7 +20,7 @@ configuration {
 
 /*****----- Global Properties -----*****/
 * {
-    font:                        "JetBrainsMono NFP 15";
+    font:                        "JetBrainsMono NFP 13";
 }
 
 /*****----- Main Window -----*****/
@@ -59,7 +59,7 @@ inputbar {
     margin:                      0px 200px;
     padding:                     5px;
     border:                      3px;
-    border-radius:               100%;
+    border-radius:               30px;
     border-color:              #1e1e2e;
     background-color:            #1e1e2e;
     children:                    [ "textbox-prompt-colon", "entry" ];
@@ -69,7 +69,7 @@ textbox-prompt-colon {
     enabled:                     true;
     expand:                      false;
     padding:                     8px 11px;
-    border-radius:               100%;
+    border-radius:               30px;
     background-color:          #1e1e2e;
     text-color:                #b8b4fe;
     str:                         "";
@@ -112,7 +112,7 @@ element {
     margin:                      0px;
     padding:                     5px;
     border:                      0px;
-    border-radius:               100%;
+    border-radius:               30px;
     border-color:                gray/15%;
     background-color:            transparent;
     text-color:rgb(91, 89, 126);
