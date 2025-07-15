@@ -1,9 +1,9 @@
 /**
  *
- * Author : Aditya Shakya (adi1090x)
+ * Author : Aditya Shakya (adi1090x), modified by ChatGPT
  * Github : @adi1090x
  * 
- * Rofi Theme File
+ * Rofi Theme File - Dark Gray Corner Variant
  * Rofi Version: 1.7.3
  **/
 
@@ -23,7 +23,6 @@ configuration {
 
 /*****----- Main Window -----*****/
 window {
-    /* properties for window widget */
     transparency:                "real";
     location:                    north east;
     anchor:                      north east;
@@ -32,15 +31,13 @@ window {
     height:                      22em;
     x-offset:                    -0.5%;
     y-offset:                    1%;
-
-    /* properties for all widgets */
     enabled:                     true;
     margin:                      0px;
     padding:                     0px;
     border-radius:               30px;
-    border:                    #b8b4fe;
+    border:                      #4d4d4d;
     cursor:                      "default";
-    background-color:            rgba(20, 20, 32, 0.85);
+    background-color:            rgba(25, 25, 25, 0.9);
 }
 
 /*****----- Main Box -----*****/
@@ -49,7 +46,7 @@ mainbox {
     spacing:                     25px;
     padding:                     50px;
     background-color:            transparent;
-    children:                    [ "inputbar", "message","listview", "mode-switcher" ];
+    children:                    [ "inputbar", "message", "listview", "mode-switcher" ];
 }
 
 /*****----- Inputbar -----*****/
@@ -60,8 +57,8 @@ inputbar {
     padding:                     5px;
     border:                      3px;
     border-radius:               30px;
-    border-color:              #1e1e2e;
-    background-color:            #1e1e2e;
+    border-color:                #3a3a3a;
+    background-color:            #1e1e1e;
     children:                    [ "textbox-prompt-colon", "entry" ];
 }
 
@@ -70,8 +67,8 @@ textbox-prompt-colon {
     expand:                      false;
     padding:                     8px 11px;
     border-radius:               10px;
-    background-color:          #1e1e2e;
-    text-color:                #b8b4fe;
+    background-color:            #1e1e1e;
+    text-color:                  #cccccc;
     str:                         "";
 }
 entry {
@@ -79,7 +76,7 @@ entry {
     padding:                     8px 12px;
     border:                      0px;
     background-color:            transparent;
-    text-color:                #b8b4fe;
+    text-color:                  #cccccc;
     cursor:                      text;
     placeholder:                 "";
     placeholder-color:           inherit;
@@ -99,7 +96,6 @@ listview {
     reverse:                     false;
     fixed-height:                true;
     fixed-columns:               true;
-    
     spacing:                     10px;
     background-color:            transparent;
     cursor:                      "default";
@@ -115,20 +111,20 @@ element {
     border-radius:               30px;
     border-color:                gray/15%;
     background-color:            transparent;
-    text-color:rgb(91, 89, 126);
+    text-color:                  #888888;
     cursor:                      pointer;
 }
 element normal.active {
-    background-image:            linear-gradient(to right, #1e1e2e, #1e1e2e);
-    text-color:                  #19B466;
+    background-image:            linear-gradient(to right, #2a2a2a, #2a2a2a);
+    text-color:                  #7fc8a9;
 }
 element selected.normal {
-    background-image:            linear-gradient(to right, #1e1e2e, #1e1e2e);
-    text-color:                  #b8b4fe;
+    background-image:            linear-gradient(to right, #333333, #333333);
+    text-color:                  #eeeeee;
 }
 element selected.active {
-    background-image:            linear-gradient(to right, #1e1e2e, #1e1e2e);
-    text-color:                  #EA5553;
+    background-image:            linear-gradient(to right, #444444, #444444);
+    text-color:                  #e06666;
 }
 element-icon {
     background-color:            transparent;
@@ -144,35 +140,35 @@ element-text {
 }
 
 /*****----- Mode Switcher -----*****/
-mode-switcher{
+mode-switcher {
     enabled:                     true;
     expand:                      false;
     spacing:                     0px;
     margin:                      0px 100px;
     padding:                     12px;
     border-radius:               30px;
-    background-color:            #1e1e2e;
+    background-color:            #1e1e1e;
 }
 button {
     background-color:            inherit;
-    text-color:                  rgb(91, 89, 126);
+    text-color:                  #888888;
     cursor:                      pointer;
 }
 button selected {
     background-color:            inherit;
-    text-color:                  #b8b4fe;
+    text-color:                  #dddddd;
 }
 
 /*****----- Message -----*****/
 error-message {
     padding:                     20px;
-    background-color:            #22272C;
+    background-color:            #2c2c2c;
     text-color:                  white;
 }
 message {
     padding:                     0px;
     background-color:            inherit;
-    text-color:                  #b8b4fe;
+    text-color:                  #cccccc;
 }
 textbox {
     padding:                     0px;
