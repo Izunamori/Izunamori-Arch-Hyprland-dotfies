@@ -1,0 +1,208 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: "JetBrainsMono NFP";
+    font-weight: bold;
+    font-size: 16px;
+    min-height: 0px;
+}
+
+/* @import "theme.css"; */
+
+window#waybar {
+    background: rgba(29, 29, 29, 0.7); /* фон бара */
+    border-radius: 0px;
+    border: 0px solid rgba(19, 19, 19, 0.623);
+}
+
+tooltip {
+    background: rgba(20, 20, 32, 0.95);
+    color: #b8b4fe;
+    border-radius: 0%;
+    border-width: 0px;
+}
+
+#workspaces button {
+    box-shadow: none;
+	text-shadow: none;
+    padding: 0px;
+    border-radius: 7px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-right: 0px;
+    color: #cfcfcf;
+    animation: ws_normal 20s ease-in-out 1;
+}
+
+#workspaces button.active {
+    background: rgba(82, 82, 82, 0.829);
+    color: #cfcfcf;
+    margin-left: 4px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-right: 4px;
+    animation: ws_active 20s ease-in-out 1;
+    transition: all 0.4s cubic-bezier(0,0.5,0.24,1);
+}
+
+#workspaces button:hover {
+    background: rgba(119, 119, 119, 0.829);
+    color: #cfcfcf;
+    animation: ws_hover 20s ease-in-out 1;
+    transition: all 0.3s cubic-bezier(0,0.5,0.24,1);
+}
+
+#taskbar button {
+    box-shadow: none;
+	text-shadow: none;
+    padding: 0px;
+    border-radius: 7px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 0px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-right: 0px;
+    color: #cfcfcf;
+    animation: ws_normal 20s ease-in-out 1;
+}
+
+#taskbar button.active {
+    background: rgba(82, 82, 82, 0.829);
+    color: #cfcfcf;
+    margin-left: 4px;
+    padding-left: 17px;
+    padding-right: 17px;
+    margin-right: 4px;
+    animation: ws_active 20s ease-in-out 1;
+    transition: all 0.4s cubic-bezier(0,0.5,0.24,1);
+}
+
+#taskbar button:hover {
+    background: rgba(119, 119, 119, 0.829);
+    color: #cfcfcf;
+    animation: ws_hover 20s ease-in-out 1;
+    transition: all 0.3s cubic-bezier(0,0.5,0.24,1);
+}
+
+#tray menu * {
+    min-height: 16px
+}
+
+#tray menu separator {
+    min-height: 10px
+}
+
+#backlight,
+#battery,
+#bluetooth,
+#custom-cava,
+#custom-cliphist,
+#clock,
+#clock,
+#custom-cpuinfo,
+#cpu,
+#custom-display,
+#custom-github_hyde,
+#custom-gpuinfo,
+#custom-hyprsunset,
+#idle_inhibitor,
+#custom-keybindhint,
+#language,
+#memory,
+#mpris,
+#network,
+#custom-notifications,
+#custom-power,
+#privacy,
+#pulseaudio,
+#custom-sensorsinfo,
+#custom-spotify,
+#taskbar,
+#taskbar,
+#taskbar#windows,
+#custom-theme,
+#tray,
+#custom-updates,
+#custom-wallchange,
+#custom-wbar,
+#custom-weather,
+#window,
+#workspaces,
+#workspaces,
+#workspaces,
+#custom-l_end,
+#custom-r_end,
+#custom-sl_end,
+#custom-sr_end,
+#custom-rl_end,
+#custom-stick,
+#custom-rr_end {
+    color: #cfcfcf;
+    background: rgba(19, 19, 19, 0.623);
+    opacity: 1;
+    margin: 6px 0px 6px 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+#workspaces,
+#taskbar {
+    padding: 0px;
+}
+
+#custom-r_end {
+    border-radius: 0px 7px 7px 0px;
+    margin-right: 12px;
+    padding-right: 4px;
+}
+
+#custom-l_end {
+    border-radius: 7px 0px 0px 7px;
+    margin-left: 12px;
+    padding-left: 4px;
+}
+
+#custom-sr_end {
+    border-radius: 0px;
+    margin-right: 12px;
+    padding-right: 4px;
+}
+
+#custom-sl_end {
+    border-radius: 0px;
+    margin-left: 12px;
+    padding-left: 4px;
+}
+
+#custom-rr_end {
+    border-radius: 0px 7px 7px 0px;
+    margin-right: 12px;
+    padding-right: 4px;
+}
+
+#custom-rl_end {
+    border-radius: 7px 0px 0px 7px;
+    margin-left: 12px;
+    padding-left: 4px;
+}
+
+#custom-nvidia_temp {
+    color: #cfcfcf;
+    background-color: rgba(19, 19, 19, 0.623); /* Тёмный полупрозрачный фон */
+    border-radius: 0px; /* Закруглённые углы */
+    padding: 0 0px; /* Отступы слева и справа */
+    margin: 6px 0px; /* Внешние отступы */
+}
+
+#custom-stick {
+    color: #cfcfcf;
+    background-color: rgba(19, 19, 19, 0);
+    border-radius: 0px;
+    padding: 0 0px; /* Отступы слева и справа */
+    margin: 0px 0px; /* Внешние отступы */
+}
+

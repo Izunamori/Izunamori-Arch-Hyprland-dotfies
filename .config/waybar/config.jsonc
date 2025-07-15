@@ -1,8 +1,8 @@
 {
     "layer": "top",
-    "margin-top": 5,
-    "margin-left": 5,
-    "margin-right": 5,
+    "margin-top": 0,
+    "margin-left": 0,
+    "margin-right": 0,
     "output": ["*"],
     "position": "top",
     "mod": "dock",
@@ -12,9 +12,9 @@
     "gtk-layer-shell": true,
     "reload_style_on_change": true,
 
-    "modules-left": ["custom/padd", "custom/l_end", "hyprland/workspaces", "custom/r_end", "custom/padd"],
-    "modules-center": ["custom/padd", "custom/l_end", "clock", "custom/r_end", "custom/padd"],
-    "modules-right": ["custom/padd", "custom/l_end", "cpu", "memory", "custom/gpuinfo", "custom/r_end", "custom/l_end", "backlight", "network", "pulseaudio", "custom/updates", "custom/keybindhint", "custom/weather", "custom/r_end", "custom/l_end", "privacy", "tray", "battery", "custom/r_end", "custom/l_end", "custom/wallchange", "custom/theme", "custom/wbar", "custom/cliphist", "custom/power", "custom/r_end", "custom/padd"],
+    "modules-left": ["custom/padd","custom/l_end","cpu","custom/r_end","custom/stick","custom/l_end","custom/nvidia_temp","custom/r_end","custom/stick","custom/l_end","memory","custom/r_end","custom/stick","custom/l_end","wlr/taskbar","custom/r_end",],
+    "modules-center": ["custom/padd", "custom/l_end", "hyprland/workspaces", "custom/r_end", "custom/stick", "custom/l_end", "clock","custom/r_end","custom/padd"],
+    "modules-right": ["custom/l_end","hyprland/language","custom/r_end","custom/stick","custom/l_end","pulseaudio","custom/r_end","custom/stick","custom/l_end","tray","custom/r_end","custom/stick","custom/l_end","custom/power","custom/r_end","custom/padd"],
 
     "hyprland/workspaces": {
         "disable-scroll": false,
@@ -28,12 +28,53 @@
         "format": "{icon}",
         "format-icons": {
             "1": "󰊴",
-            "2": "",
+            "2": "󰎇",
             "3": "",
             "4": "󰨞",
             "5": "",
-            "6": "󰎇"
+            "10": ""
         }
+    },
+
+    "temperature": {
+    "thermal-zone": 2,
+    "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "critical-threshold": 80,
+    "format-critical": "{temperatureC}°C ",
+    "format": "{temperatureC}°C "
+    },
+
+    "custom/nvidia_temp": {
+    "exec": "nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader",
+    "format": "GPU: {}°C ",
+    "interval": 5,
+    "critical-threshold": 80,
+    "format-critical": "GPU: {}°C "
+    },
+
+    "wlr/taskbar": {
+    "format": "{icon}",
+    "icon-size": 16,
+    "icon-theme": "Papirus-Dark",
+    "tooltip-format": "{title}",
+    "on-click": "activate",
+    "on-click-middle": "close",
+    "ignore-list": [
+    "Alacritty"
+    ],
+    "app_ids-mapping": {
+    "firefoxdeveloperedition": "firefox-developer-edition"
+    },
+    "rewrite": {
+        "Firefox Web Browser": "Firefox",
+        "Foot Server": "Terminal"
+    }
+    },
+
+    "hyprland/language": {
+    "format": "{}",
+    "format-en": "En",
+    "format-ru": "Ru"
     },
 
     "idle_inhibitor": {
@@ -73,16 +114,17 @@
     },
 
     "cpu": {
-        "interval": 10,
+        "interval": 1,
         "format": "󰍛 {usage}%",
         "rotate": 0,
         "format-alt": "{icon0}{icon1}{icon2}{icon3}",
         "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
-        "tooltip-format": "CPU: {usage}%"
+        "tooltip-format": "CPU: {usage}%",
+        "on-click-right": "~/.config/hypr/scripts/restart-monitor.sh"
     },
 
     "memory": {
-        "interval": 30,
+        "interval": 2,
         "format": "󰾆 {used}GB",
         "rotate": 0,
         "format-alt": "󰾆 {percentage}%",
@@ -112,7 +154,7 @@
     },
 
     "pulseaudio": {
-        "format": "{icon} {volume}%",
+        "format": "{icon}",
         "format-muted": "婢",
         "format-icons": {
             "headphone": "",
@@ -138,7 +180,9 @@
 
     "custom/power": {
         "format": "",
-        "on-click": "~/.config/waybar/powerm.sh"
+        "on-click": "~/.config/waybar/scripts/powerm.sh",
+        "on-click-right": "~/.config/waybar/scripts/restart.sh",
+        "on-click-middle": "~/.config/waybar/scripts/hyprpaper.sh"
     },
 
     "custom/l_end": {
@@ -153,6 +197,11 @@
 
     "custom/padd": {
         "format": "  ",
+        "interval": "once"
+    },
+
+    "custom/stick": {
+        "format": "|",
         "interval": "once"
     }
 }

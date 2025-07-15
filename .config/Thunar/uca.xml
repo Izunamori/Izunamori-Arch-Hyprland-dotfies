@@ -2,7 +2,7 @@
 <actions>
 <action>
 	<icon>utilities-terminal</icon>
-	<name>Открыть терминал в папке</name>
+	<name>Open terminal in this dir</name>
 	<submenu></submenu>
 	<unique-id>1744211089543487-1</unique-id>
 	<command>kitty --directory %f</command>
@@ -11,5 +11,16 @@
 	<patterns>*</patterns>
 	<startup-notify/>
 	<directories/>
+</action>
+<action>
+	<icon></icon>
+	<name>Convert to png</name>
+	<submenu></submenu>
+	<unique-id>1752596714128090-1</unique-id>
+	<command>convert %f -quality 100 %f.png</command>
+	<description></description>
+	<range>*</range>
+	<patterns>*.jpg;*.jpeg</patterns>
+	<image-files/>
 </action>
 </actions>

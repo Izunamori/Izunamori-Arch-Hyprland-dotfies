@@ -1,0 +1,1 @@
+rofi -show power-menu -modi "power-menu:rofi-power-menu" -theme ~/.config/rofi/themes/MyStyle_powermenu.rasi
