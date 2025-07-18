@@ -34,7 +34,7 @@ makepkg -si
 ```bash
 sudo pacman -Syyu 
 sudo pacman -S thunar fastfetch fish hyprlock hyprpaper swaync swaync ttf-jetbrains-mono gthumb rofi-wayland pavucontrol wl-clipboard wl-clip-persist cliphist waybar gvfs hypridle nwg-look qt5ct qt6ct kvantum polkit-gnome hyprpicker thunar-archive-plugin
-yay -S ttf-montserrat ttf-font-awesome ttf-jetbrains-mono-nerd hyprshot catppuccin-gtk-theme-mocha tela-circle-icon-theme bibata-cursor-theme
+yay -S ttf-montserrat ttf-font-awesome ttf-jetbrains-mono-nerd hyprshot rofi-power-menu catppuccin-gtk-theme-mocha tela-circle-icon-theme bibata-cursor-theme
 ```
 
 ## Дополнительные пакеты (по желанию)
