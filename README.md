@@ -13,8 +13,8 @@
 
 ```bash
 sudo pacman -S git
-mkdir GIT
-cd GIT
+mkdir git
+cd git
 git clone https://github.com/Izunamori/Izunamori-Arch-Hyprland-dotfies.git
 cd Izunamori-Arch-Hyprland-dotfies/
 cp -r .config/ ~/
@@ -22,7 +22,7 @@ cp -r .config/ ~/
 
 ## Установка yay
 ```bash
-cd GIT
+cd git
 sudo pacman -S --needed base-devel git
 git clone https://aur.archlinux.org/yay.git
 cd yay
