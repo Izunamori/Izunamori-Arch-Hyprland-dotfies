@@ -20,7 +20,7 @@
 	<command>convert %f -quality 100 %f.png</command>
 	<description></description>
 	<range>*</range>
-	<patterns>*.jpg;*.jpeg</patterns>
+	<patterns>*</patterns>
 	<image-files/>
 </action>
 <action>
@@ -51,7 +51,7 @@
 	<name>Copy path</name>
 	<submenu></submenu>
 	<unique-id>1752600796884926-2</unique-id>
-	<command>env WAYLAND_DISPLAY=$WAYLAND_DISPLAY bash -c &apos;printf &quot;%s\n&quot; &quot;$1&quot; | wl-copy&apos; _ %f</command>
+	<command>echo -n %f | wl-copy</command>
 	<description></description>
 	<range>*</range>
 	<patterns>*</patterns>
