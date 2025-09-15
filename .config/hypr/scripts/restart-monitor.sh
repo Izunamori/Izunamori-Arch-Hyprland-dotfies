@@ -3,9 +3,9 @@
 # Конфигурация монитора (из вашего hyprland.conf)
 MONITOR="HDMI-A-1"
 RESOLUTION="3840x2160"
-POSITION="2560x-0"
+POSITION="2560x-750"
 SCALE="1.5"
-TRANSFORM="0"  # 3 = поворот на 270°
+TRANSFORM="3"  # 3 = поворот на 270°
 
 # 1. Отключаем монитор
 hyprctl keyword monitor "$MONITOR,disable"
