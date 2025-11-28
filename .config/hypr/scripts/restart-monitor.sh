@@ -3,7 +3,7 @@
 # Конфигурация монитора (из вашего hyprland.conf)
 MONITOR="HDMI-A-1"
 RESOLUTION="3840x2160"
-POSITION="2560x-750"
+POSITION="-1440x-600"
 SCALE="1.5"
 TRANSFORM="3"  # 3 = поворот на 270°
 
